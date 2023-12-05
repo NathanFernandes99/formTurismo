@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventure Brazil</title>
+
+    <title>Adventure Brazil</title>
+    <meta name="description" content="Viaje para qualquer lugar do Brasil com os melhores preços">
+    
+    <style>
+    body{
+        display: flex;
+        flex-direction: column;
+        background-image: url(Rio.png);
+        background-repeat: no-repeat;
+        background-size: 105vw;
+        background-attachment: fixed;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        align-items: center;
+        gap: 50px;
+    }
+
+    h1{
+        margin-top: 50px;
+        font-size: 80px;
+        color: white;
+        text-shadow: 2px 2px 5px black;
+    }
+    
+    .navegacao{
+        border-radius: 50px 0px 50px 0px;
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 0px;
+        background-color: white;
+        width: 600px;
+        height: 75px;
+        justify-content: center;
+        align-items: center;
+    }
+    li{
+        display: inline-block;
+        margin: 10px;
+        list-style: none;
+    }
+    a{
+        transition: 0.2s;
+    }
+
+    a:link:hover{
+        color:gray;
+    }
+
+    a:link{
+        font-size: 20px;
+        text-decoration:none;
+        color:black;
+    }
+
+    a:visited{
+        color:black;
+    }
+    a:visited:hover{
+        color:gray;
+    }
+
+    img{
+        border-radius: 70px 0px 70px 0px;
+        width: 500px;
+        height: 300px;
+        transition: 0.5s;
+        margin-left: 50px;
+        object-fit: cover;
+    }
+    img:hover{
+        width: 600px;
+        height: 380px;
+    }
+
+</style>
+</head>
+
+<body>
+<h1>Adventure Brazil</h1>
+<div class="navegacao">
+        <a href="index.html">
+            <li>Página Inicial</li>
+        </a>|</li>
+        <a href="pagerio.php">
+            <li>Cadastre-se</li>
+        </a>
+        </a>|</li>
+        <a href="vetores.php">
+        <li>Vetores</li>
+        </a>
+    </ul>    
+</div>
+<div class="imagens1">
+    <a href="pagerio.php"><img src="Rjaneiro.jpg"></a>
+    <a href="pagerecife.php"><img src="recife.jpg"></a>
+</div>
+<div class="imagens2">
+    <a href="pagegramado.php"><img src="gramado.jpg"></a>
+    <a href="pagecuritiba.php"><img src="curitiba-185-c.jpg" ></a>
+</div>
+<div class="imagens3">
+    <a href="pagebonito.php"><img src="bonito.jpg"></a>
+    <a href="pagebalneario.php"><img src="balneario.jpg"></a>
+</div>
+</body>
+</html>
